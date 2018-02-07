@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.invisionapp.activity.activity.activity.NewNavigationActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/colorToolbar">
+
+            <ImageView
+                android:id="@+id/back_one"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_gravity="left"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/back_new" />
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Menu"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/back_second"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/x"
+                android:tint="@color/colorWhite" />
+
+        </android.support.v7.widget.Toolbar>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="Contact"
+        android:textColor="@color/colorToolbar"
+        android:textSize="15dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/lineAdapter" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"        android:text="Organisations"
+        android:textColor="@color/colorToolbar"
+        android:textSize="15dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/lineAdapter" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"        android:text="Countries"
+        android:textColor="@color/colorToolbar"
+        android:textSize="15dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/lineAdapter" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"        android:text="Projects"
+        android:textColor="@color/colorToolbar"
+        android:textSize="15dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/lineAdapter" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="Embassies &amp; Consulates "
+        android:textColor="@color/colorToolbar"
+        android:textSize="15dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/lineAdapter" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="30dp"
+        android:text="Account"
+        android:textColor="@color/new_menu_font"
+        android:background="@color/new_menu_back"
+        android:textSize="15dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/lineAdapter" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"        android:text="My Profile"
+        android:textColor="@color/colorToolbar"
+        android:textSize="15dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/lineAdapter" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"        android:text="Settings"
+        android:textColor="@color/colorToolbar"
+        android:textSize="15dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/lineAdapter" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"        android:text="Logout"
+        android:textColor="@color/colorToolbar"
+        android:textSize="15dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/lineAdapter" />
+
+</LinearLayout>
+</ScrollView>

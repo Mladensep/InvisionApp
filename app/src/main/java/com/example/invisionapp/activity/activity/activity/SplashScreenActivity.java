@@ -9,9 +9,12 @@ import android.view.WindowManager;
 
 import com.example.invisionapp.R;
 
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+
 public class SplashScreenActivity extends AppCompatActivity {
 
-    private final int SPLASH_DISPLAY_LENGTH = 2500;
+    //private final int SPLASH_DISPLAY_LENGTH = 2500;
 
 
     @Override
@@ -22,15 +25,22 @@ public class SplashScreenActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
 
 
+        ButterKnife.bind(this);
 
-        new Handler().postDelayed(new Runnable(){
-            @Override
-            public void run() {
-                /* Create an Intent that will start the Menu-Activity. */
-                Intent mainIntent = new Intent(SplashScreenActivity.this, HomeActivity.class);
-                SplashScreenActivity.this.startActivity(mainIntent);
-                SplashScreenActivity.this.finish();
-            }
-        }, SPLASH_DISPLAY_LENGTH);
+//        new Handler().postDelayed(new Runnable(){
+//            @Override
+//            public void run() {
+//                /* Create an Intent that will start the Menu-Activity. */
+//                Intent mainIntent = new Intent(SplashScreenActivity.this, HomeActivity.class);
+//                SplashScreenActivity.this.startActivity(mainIntent);
+//                SplashScreenActivity.this.finish();
+//            }
+//        }, SPLASH_DISPLAY_LENGTH);
+    }
+
+    @OnClick(R.id.splash)
+    public void next() {
+        Intent intent = new Intent(this, HomeActivity.class);
+        startActivity(intent);
     }
 }

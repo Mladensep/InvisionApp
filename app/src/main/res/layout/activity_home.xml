@@ -17,6 +17,22 @@
         android:layout_weight="1"
         android:background="@color/colorToolbar">
 
+        <ImageView
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_gravity="left"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/user" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:text="Hans"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp" />
+
         <TextView
             android:id="@+id/toolbar_title"
             android:layout_width="wrap_content"
@@ -27,21 +43,14 @@
             android:textSize="14sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:layout_marginRight="20dp"
-            android:text="Hans"
-            android:textColor="@color/colorWhite"
-            android:textSize="14sp" />
-
         <ImageView
-            android:layout_width="19dp"
-            android:layout_height="19dp"
+            android:id="@+id/new_navigation"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
             android:layout_gravity="right"
             android:layout_marginRight="10dp"
-            android:src="@mipmap/user" />
+            android:tint="@color/colorWhite"
+            android:src="@mipmap/menu_new" />
 
     </android.support.v7.widget.Toolbar>
 

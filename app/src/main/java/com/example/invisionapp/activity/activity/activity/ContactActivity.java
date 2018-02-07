@@ -1,5 +1,6 @@
 package com.example.invisionapp.activity.activity.activity;
 
+import android.content.Intent;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,6 +17,7 @@ import com.example.invisionapp.activity.activity.model.Landscape;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class ContactActivity extends AppCompatActivity {
 
@@ -50,9 +52,21 @@ public class ContactActivity extends AppCompatActivity {
 
         recyclerView.setAdapter(adapter);
 
-        setUpDrawer();
+        //setUpDrawer();
 
         setUpRecyclerView();
+    }
+
+    @OnClick(R.id.back_secondw)
+    public void nav() {
+        Intent intent = new Intent(this, NewNavigationActivity.class);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.back_one)
+    public void back1() {
+        finish();
+
     }
 
     private void setUpDrawer() {

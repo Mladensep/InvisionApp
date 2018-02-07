@@ -11,4 +11,6 @@
     <color name="lineAdapter">#e9eef2</color>
     <color name="hintContactColor">#afb8c2</color>
     <color name="contactColor">#7b8591</color>
+    <color name="new_menu_back">#e9edf0</color>
+    <color name="new_menu_font">#7b8591</color>
 </resources>

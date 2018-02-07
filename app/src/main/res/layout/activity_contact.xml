@@ -16,6 +16,14 @@
         android:layout_height="wrap_content"
         android:background="@color/colorToolbar">
 
+        <ImageView
+            android:id="@+id/back_one"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="left"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/back_new" />
+
         <TextView
             android:id="@+id/toolbar_title"
             android:layout_width="wrap_content"
@@ -27,13 +35,60 @@
             android:textStyle="bold" />
 
         <ImageView
-            android:layout_width="18dp"
-            android:layout_height="18dp"
+            android:id="@+id/back_secondw"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
             android:layout_gravity="right"
-            android:layout_marginRight="13dp"
-            android:src="@drawable/plus" />
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/menu_new"
+            android:tint="@color/colorWhite" />
+
+        <ImageView
+            android:id="@+id/back_second"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/plus"
+            android:tint="@color/colorWhite" />
 
     </android.support.v7.widget.Toolbar>
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@color/colorToolbar">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/back_one"-->
+            <!--android:layout_width="22dp"-->
+            <!--android:layout_height="22dp"-->
+            <!--android:layout_gravity="left"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:src="@drawable/back_new" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/toolbar_title"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:text="Menu"-->
+            <!--android:textColor="@color/colorWhite"-->
+            <!--android:textSize="14sp"-->
+            <!--android:textStyle="bold" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/back_second"-->
+            <!--android:layout_width="15dp"-->
+            <!--android:layout_height="15dp"-->
+            <!--android:layout_gravity="right"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:src="@mipmap/x"-->
+            <!--android:tint="@color/colorWhite" />-->
+
+    <!--</android.support.v7.widget.Toolbar>-->
 
     <android.support.v4.widget.DrawerLayout
         android:id="@+id/drawer_layout"

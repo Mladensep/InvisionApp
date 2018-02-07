@@ -28,8 +28,14 @@ public class HomeActivity extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
-        setUpDrawer();
+        //setUpDrawer();
 
+    }
+
+    @OnClick(R.id.new_navigation)
+    public void nav() {
+        Intent intent = new Intent(this, NewNavigationActivity.class);
+        startActivity(intent);
     }
 
     @OnClick(R.id.contact_id)

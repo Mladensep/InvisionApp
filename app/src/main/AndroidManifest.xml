@@ -21,7 +21,8 @@
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".activity.activity.activity.ContactActivity"
-            android:windowSoftInputMode="stateHidden"></activity>
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".activity.activity.activity.NewNavigationActivity"></activity>
     </application>
 
 </manifest>
