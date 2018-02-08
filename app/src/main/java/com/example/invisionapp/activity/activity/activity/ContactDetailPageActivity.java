@@ -66,7 +66,7 @@ public class ContactDetailPageActivity extends AppCompatActivity {
                     check1 = true;
                 } else {
                     mainLayer.removeView(layer1);
-                    textView.setTextColor(Color.parseColor("#808a95"));
+                    textView.setTextColor(Color.parseColor("#707172"));
 
                     check1 = false;
                 }
@@ -90,7 +90,7 @@ public class ContactDetailPageActivity extends AppCompatActivity {
                     check2 = true;
                 } else {
                     mainLayer2.removeView(layer2);
-                    textView2.setTextColor(Color.parseColor("#808a95"));
+                    textView2.setTextColor(Color.parseColor("#707172"));
 
                     check2 = false;
                 }
@@ -114,7 +114,7 @@ public class ContactDetailPageActivity extends AppCompatActivity {
                     check3 = true;
                 } else {
                     mainLayer3.removeView(layer3);
-                    textView3.setTextColor(Color.parseColor("#808a95"));
+                    textView3.setTextColor(Color.parseColor("#707172"));
 
                     check3 = false;
                 }
