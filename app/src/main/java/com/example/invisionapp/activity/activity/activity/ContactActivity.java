@@ -1,6 +1,8 @@
 package com.example.invisionapp.activity.activity.activity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -42,6 +44,12 @@ public class ContactActivity extends AppCompatActivity {
         if (sc.equals("1")) {
             textView.setText("Contacts");
             adapter = new RecyclerAdapter(this, Landscape.getData());
+
+            SharedPreferences sharedPref = this.getSharedPreferences("naziv1", Context.MODE_PRIVATE);
+            SharedPreferences.Editor editor = sharedPref.edit();
+            editor.putInt("edit1", 5);
+            editor.commit();
+
         } else if (sc.equals("2")) {
             textView.setText("Countries");
             adapter = new RecyclerAdapter(this, Landscape.getData2());

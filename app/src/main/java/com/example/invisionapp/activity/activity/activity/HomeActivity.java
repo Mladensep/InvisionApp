@@ -1,7 +1,9 @@
 package com.example.invisionapp.activity.activity.activity;
 
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -30,6 +32,16 @@ public class HomeActivity extends AppCompatActivity {
 
         //setUpDrawer();
 
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        SharedPreferences sharedPref = this.getSharedPreferences("naziv1", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPref.edit();
+        editor.putInt("edit1", 10);
+        editor.commit();
     }
 
     @OnClick(R.id.new_navigation)

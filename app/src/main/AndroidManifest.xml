@@ -22,7 +22,8 @@
         <activity
             android:name=".activity.activity.activity.ContactActivity"
             android:windowSoftInputMode="stateHidden" />
-        <activity android:name=".activity.activity.activity.NewNavigationActivity"></activity>
+        <activity android:name=".activity.activity.activity.NewNavigationActivity" />
+        <activity android:name=".activity.activity.activity.ContactDetailPageActivity" />
     </application>
 
 </manifest>
